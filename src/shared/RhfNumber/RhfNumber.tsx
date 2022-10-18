@@ -1,9 +1,9 @@
 import { Box, TextField } from '@mui/material';
 import { Control, Controller } from 'react-hook-form';
-import { IFormInput } from '../RhfAutocomplete/RhfAutocomplete';
+import { TripData } from '../RhfAutocomplete/RhfAutocomplete';
 
 interface RhfNumberProps {
-  control: Control<IFormInput, any>
+  control: Control<TripData, any>
   label: string;
 }
 

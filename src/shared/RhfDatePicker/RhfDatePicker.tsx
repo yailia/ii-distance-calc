@@ -6,14 +6,14 @@ import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import dayjs, { Dayjs } from 'dayjs';
 import { Box } from '@mui/material';
 import { Control, Controller } from 'react-hook-form';
-import { IFormInput } from '../RhfAutocomplete/RhfAutocomplete';
+import { TripData } from 'src/models/TripData';
 import isSameOrBefore from 'dayjs/plugin/isSameOrBefore'
 
 
 dayjs.extend(isSameOrBefore)
 
 interface RhfDatePickerProps {
-  control: Control<IFormInput, any>
+  control: Control<TripData, any>
   label: string;
 }
 
