@@ -1,9 +1,8 @@
-import * as React from 'react';
 import TextField from '@mui/material/TextField';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import dayjs, { Dayjs } from 'dayjs';
+import dayjs from 'dayjs';
 import { Box } from '@mui/material';
 import { Control, Controller } from 'react-hook-form';
 import { TripData } from 'src/models/TripData';

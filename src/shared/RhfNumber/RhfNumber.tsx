@@ -1,6 +1,6 @@
 import { Box, TextField } from '@mui/material';
 import { Control, Controller } from 'react-hook-form';
-import { TripData } from '../RhfAutocomplete/RhfAutocomplete';
+import { TripData } from 'src/models/TripData';
 
 interface RhfNumberProps {
   control: Control<TripData, any>
